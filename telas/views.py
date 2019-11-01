@@ -4,4 +4,6 @@ from django.shortcuts import render,HttpResponse
 def paginaInicial(request):
     return render(request,"telas/home.html")
 def contato(request):
-    return render(request,"telas/contato.html")     
+    return render(request,"telas/contato.html")
+def teste(request,name):
+    return render(request,'telas/teste.html',{'pao':name})     
