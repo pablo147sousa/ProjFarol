@@ -1,0 +1,95 @@
+/* CONFIGURACOES ESPECIAIS PARA APARELHOS COM ESSES PIXELS */
+@media (min-width:320px) and (max-width:1077px){ 
+    .login {   
+        height: 432px;
+    }
+    .but{
+        margin-top:24% ;
+    }
+    .bot {
+        width: 75%;
+    } 
+    .passtop{
+        margin-top:-6% ;
+    }
+    .pass{
+        font-size: 12px;
+        margin-left: 33%;
+    }
+
+    .farol {
+        font-size: 115px;
+    }
+}
+@media (min-width:1078px) and (max-width:1300px) {
+    .login {   
+        height: 490px;
+    }
+    .but{
+        margin-top:24.7% ;
+    }
+    .input {
+        margin-top: 6%;
+    }
+    .bot {
+        width: 70%;
+    } 
+    .passtop{
+        margin-top:-3% ;
+    }
+    .pass{
+        font-size: 12px;
+        margin-left:40%;
+    }
+
+    .farol {
+        font-size: 165px;
+    }
+}
+
+@media (min-width:1301px) and (max-width:1441px){
+    .login {   
+        margin: 37%;
+        margin-top: 7%;
+        height: 500px;
+    }
+    .but{
+        margin-top:22% ;
+    }
+    .input {
+        margin-top: 6%;
+    }
+    .bot {
+        width: 70%;
+    }
+    .passtop{
+        margin-top:-3% ;
+    } 
+    .pass{
+        font-size: 13px;
+        margin-left: 41%;
+    }
+    .farol {
+        font-size: 165px;
+    }
+}
+
+@media (min-width:1442px){
+    .login {   
+        margin-top: 10%;
+        height: 60%;
+    }
+    .but{
+        margin-top:20% ;
+    }
+    .input {
+        margin-top: 6%;
+    }
+    .bot {
+        width: 70%;
+    } 
+    .pass{
+        font-size: 15px;
+        margin-left: 47%;
+    }
+}

@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="{% static 'imagens/farol.png' %}" rel="shortcut icon">
+        <meta charset="utf-8" />
+        <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href="{% static 'css/padraoTI.css' %}" rel="stylesheet">
+        <link href="{% static 'css/padraoTelas.css' %}" rel="stylesheet">
+        <link href="{% static 'css/responsividadeTI.css' %}" rel="stylesheet">
+        <title>
+            Welcome to Farol
+        </title>
+    </head>
+    <body>
+        <div class="login">
+            <div class="inp">
+                <div class="texto">
+                    <b>LOGIN</b>
+                </div>
+                <br><br>
+                <input type="text" class="input"  placeholder="Digite seu email">
+                <br>
+                <input type="password" class="input"  placeholder="Digite sua senha">
+                <br><br>
+                <div class="passtop">
+                    <a href="http://127.0.0.1:8000/senha" class="pass">Esqueceu a senha?</a>
+                </div>
+            </div>
+            <div class="but">
+                <input type="submit" class="bot" value="Entrar">
+                <a href="#" class="btn"></a>
+                <br><br><br>
+                <hr/>
+                <br><br>
+                <p class="txt">Ainda não possui uma conta? &nbsp<a href="http://127.0.0.1:8000/cadastro" class="btn1">Cadastre-se</a></p>
+            </div>
+        </div>
+        <div class="farol">FAROL</div>
+     </body>
+</html>

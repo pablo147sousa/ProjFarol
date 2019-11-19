@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Projeto Farol - Cadastro</title> 
+
+    <link rel="stylesheet"href="{% static 'css/telalogind.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>  
+<body> 
+    <main>
+        <h1 class="texto"> PROJETO FAROL</h1>
+        <h2 class="texto"> Insira seus dados para Cadastro</h2>
+        <div class="container">
+            <form>
+                <input type="text" class="txt" placeholder="Nome Completo">
+                <br>
+                <input type="number" class="txt" placeholder="CPF">
+                <br>
+                <input type="email" class="txt" placeholder="E-mail">
+                <br>
+                <input type="email" class="txt" placeholder="Confirmar E-mail">
+                <br>
+                <input type="password" class="txt" placeholder="Senha">
+                <br>
+                <input type="password" class="txt" placeholder="Confirmar senha">
+                <br>
+                <button onclick="alert('Dados enviados')" type="submit" class="bt bt-vd">Cadastre-se</button>
+                <br><br>
+                <hr>
+            </form>
+        </div>
+        <div class="redirecionar">
+            <br>
+            <p class="textologin">Já tem cadastro? &nbsp <a class="irlogin" onclick="alert('Redirecionar para pagina de Login')">Login</a> </p>
+            <br>
+        </div>
+        </main>
+</body>
+</html>

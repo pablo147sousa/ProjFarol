@@ -1,0 +1,14 @@
+/* CONFIGURACAO DE PADROES DO SITE */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
+}
+
+/* SETANDO BACKGROUND DO SITE */
+body {
+    background-image: url("../imagens/bg5.png");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

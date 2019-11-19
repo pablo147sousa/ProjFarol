@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Lato', sans-serif;
+}
+body {
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 50%;
+    margin-bottom: 1%;
+    background-image: url("../imagens/bg5.png");
+    background-attachment: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+main {
+    background-color: rgba(132, 237, 255, 0.5);
+    border: 1px solid rgba(132, 237, 255, 0.5);
+    border-radius: 25px;
+}
+.txt {
+   
+    margin-left: 30%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 35%;
+}
+.bt {
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    transition: .5s ;
+}
+.texto{
+    color: black;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.textologin {
+    text-align: center;
+    margin-bottom: 2%;
+}
+.irlogin{
+    color: white;
+    cursor: pointer;
+}
+.bt-vd:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    box-shadow: 0 2px 3px #777;
+}

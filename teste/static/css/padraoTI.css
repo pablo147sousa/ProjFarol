@@ -1,0 +1,100 @@
+/* CONFIGURACOES PADRAO DA DIVISÃO QUE FARÁ UM QUADRO AZUL NA TELA */
+.login {
+    position: fixed;
+    margin :35%;
+    margin-top:10% ;
+    width: 25%;
+    text-align: center;
+    background-color: rgba(132, 237, 255, 0.5);
+    border: 1px solid rgba(132, 237, 255, 0.5);
+    border-radius: 25px;
+    height: 60%;
+}
+
+/* CONFIGURACOES PADRAO DA DIVISÃO "INP", QUE CONTÉM OS
+CAMPOS DE TEXTO E "ESQUECEU A SENHA" */
+.inp{
+    position: fixed;
+    margin-top:4% ;
+    width: 25%;
+    height: 70%;
+    text-align: center;
+}
+
+/* CONFIGURACAO PADRAO DO TEXTO "LOGIN" */
+.texto {
+    font-size: 25px;
+}
+
+/* CONFIGURACOES PADRAO DOS CAMPOS DE TEXTO */
+.input{
+    color: #777;
+    width: 70%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3% 1%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-top: 4%;
+}
+
+/* CONFIGURACOES PADRAO DO "ESQUECEU A SENHA?" */
+.pass {
+    color: #000000f3;
+    text-decoration: none;
+}
+
+/* MUDANDO COR AO PASSAR MOUSE POR CIMA DE "ESQUECEU A SENHA?" */
+.pass:hover{
+    text-decoration: underline;
+    color: #000000f3;
+}
+
+/* CONFIGURACOES PADRAO DA DIVISÃO "BUT", QUE CONTÉM O
+LOGIN E O TEXTO DE CADASTRO NO FIM DO QUADRO */
+.but{
+    position: fixed;
+    width: 25%;
+    height: 70%;
+    text-align: center;
+}
+
+/* CONFIGURACOES PADROES DA BARRA DE ENTRAR */
+.bot {
+    transition: .5s ;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    display: inline-block;
+    padding: 3% 1%;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+/* MUDANDO COR AO PASSAR MOUSE POR CIMA DE "ENTRAR" */
+.bot:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #fff;
+    box-shadow: 0 2px 3px #777;
+}
+
+/* CONFIGURANDO O HREF "CADASTRE-SE" */
+.btn1 {
+    color: white;
+    text-decoration: none;
+}
+
+/* MUDANDO COR AO PASSAR MOUSE POR CIMA DE "CADASTRE-SE" */
+.btn1:hover {
+    color: #40407a;
+    text-decoration: underline;
+}
+
+.farol {
+    font-size: 175px;
+    background-color: rgba(255, 255, 255, 0.014);
+    color: rgba(84, 88, 92, 0.137);
+    transform: rotate(270deg);
+    margin-right: 50%;
+    margin-left: -25%;
+}
